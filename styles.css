@@ -9,8 +9,8 @@ body {
     background-color: #373331;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
+    margin: 0;
 }
 
 header h1 {
@@ -72,3 +72,82 @@ h2 {
     align-self: center;
 }
 
+.navbar {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar li{
+    padding: 0px 20px;
+    margin: 10px;
+    color: #373331;
+    font-family: "Jersey 25", sans-serif;
+    font-size: 1.5em;
+    
+}
+
+a {
+    text-decoration: none;
+    height: 100%;
+    background-color: #80AC7B;
+    border-radius: 5%;
+    margin: 10px;
+
+}
+
+a:hover {
+    background-color: #E8EAA1;
+    height: 100%;
+}
+
+table {
+    background-color: #373331;
+    color: #80AC7B;
+    border: 1px solid #E8EAA1;
+    height: 180px;
+    vertical-align: top;
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.t1 {
+    background-color: #373331;
+    color: #80AC7B;
+}
+
+.t2 {
+    background-color: hsla(66, 46%, 76%, 0.05);
+}
+
+tr {
+    border: solid #E8EAA1 1px;
+}
+
+tr:hover {
+    background-color: hsla(66, 46%, 76%, 0.5);
+    color: #373331;
+}
+
+td {
+    border: solid #E8EAA1 1px;
+    text-align: center;
+    padding: 5px;
+}
+
+th {
+    font-family: "Jersey 25", sans-serif;
+    text-align: center;
+    background-color: #E8EAA1;
+    color:#373331;
+    font-size: 1.5em;
+}
